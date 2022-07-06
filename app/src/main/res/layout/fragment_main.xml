@@ -88,7 +88,7 @@
                 android:id="@+id/card1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="150dp"
+                android:minHeight="180dp"
                 android:maxHeight="250dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -114,12 +114,24 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="12dp"
                     android:padding="4dp"
                     android:layout_gravity="bottom|center_horizontal"
                     android:gravity="center"
                     android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/more_card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:layout_gravity="bottom|left"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="بیشتر بدانید >"
+                    android:textSize="9sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -128,7 +140,7 @@
                 android:id="@+id/card2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="150dp"
+                android:minHeight="180dp"
                 android:maxHeight="250dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -151,12 +163,24 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/more_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:layout_margin="4dp"
                     android:padding="4dp"
-                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_gravity="bottom|left"
                     android:gravity="center"
-                    android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
-                    android:textSize="12sp"
+                    android:text="بیشتر بدانید >"
+                    android:textSize="9sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -164,7 +188,7 @@
                 android:id="@+id/card3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="150dp"
+                android:minHeight="180dp"
                 android:maxHeight="250dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -187,12 +211,24 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="12dp"
                     android:padding="4dp"
                     android:layout_gravity="bottom|center_horizontal"
                     android:gravity="center"
                     android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/more_card3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:layout_gravity="bottom|left"
+                    android:gravity="center"
+                    android:text="بیشتر بدانید >"
+                    android:textSize="9sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -229,6 +265,7 @@
                 android:background="@drawable/bg_background"
                 android:layout_margin="8dp"
                 android:padding="8dp"
+                android:textSize="11dp"
                 android:text="مطالعه بیشتر"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

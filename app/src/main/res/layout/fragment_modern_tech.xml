@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue_grey_100">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineH1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_earth"
+            app:layout_constraintBottom_toBottomOf="@+id/guidelineH1"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineV1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="تکنولوژی های نوین"
+            android:textColor="@color/blue_grey_900"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guidelineH1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="right"
+            android:text="  کسب و کار و رونق آن از دیرباز لازمه ی بقای اقتصادی هر جامعه ای بوده است.
+تکنولوژی تاثیر مهمی بر روی فعالیت های اقتصادی و توسعه کسب و کار دارد و باعث می شود درآمد آن دسته از بیزنس هایی که با فناوری همراه شده اند ، چندیدن برابر شود.
+\n
+در حال حاضر بسیاری از صاحبان کسب و کار و کارآفرین بر این باور هستند که باید بیزنس خود را به روزرسانی کنند و از بهترین ابزارهای تکنولوژی برای رونق بخشیدن به کسب و کار خودشان استفاده کنند.
+\n
+کافی است با راه اندازی یک وب‌سایت و ورود به شبکه‌های اجتماعی ، یک محتوای باکیفیت و ارزشمند برای کسب و کار و محصولات تولید شود. با انجام این کار دیگر تمامی مخاطبان هدف خیلی راحت به هر کسب و کاری دسترسی دارند و می‌توانند نیازشان را برطرف کنند.
+\n
+طراحی وب سایت و سامانه های تحت وب از طریق روش‌های متفاوتی قابل انجام است، یکی از این روش‌ها که مورد توجه برنامه نویسان و طراحان بسیاری نیز قرار گرفته است، طراحی با زبان ASP.NET است. طراحی وب سایت و سامانه های تحت وب دات نت یک روش فوق العاده برای برنامه نویسی سایت‌های بسیار معتبر دولتی یا برندهای خصوصی بسیار بزرگ و نام آشنا است.
+\n
+دات نت را تقریبا می‌توان بر روی دستگاه‌های مختلف پشتیبانی نمود."
+            android:textColor="@color/blue_grey_800"
+            android:textSize="13dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
