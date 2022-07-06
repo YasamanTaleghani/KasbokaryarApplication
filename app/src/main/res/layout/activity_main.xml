@@ -22,9 +22,11 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layoutDirection="rtl"
         app:menu="@menu/my_navigation_items"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
