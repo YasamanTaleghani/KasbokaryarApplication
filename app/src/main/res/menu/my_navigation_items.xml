@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/action_search"
-        android:title="search"
-        android:icon="@drawable/ic_launcher_background" />
-    <item android:id="@+id/action_settings"
-        android:title="setting"
-        android:icon="@drawable/ic_launcher_background" />
-    <item android:id="@+id/action_navigation"
-        android:title="menu"
-        android:icon="@drawable/ic_launcher_background" />
+    <item android:id="@+id/action_main"
+        android:title="صفحه اصلی"
+        android:icon="@drawable/ic_home"
+        android:enabled="true" />
+    <item android:id="@+id/action_services"
+        android:icon="@drawable/ic_favorite_star_svgrepo_com"
+        android:title="خدمات"
+        android:enabled="true" />
+    <item android:id="@+id/action_education"
+        android:icon="@drawable/ic_book"
+        android:title="آموزش"
+        android:enabled="true" />
+    <item android:id="@+id/action_contact"
+        android:icon="@drawable/ic_phone_call"
+        android:title="تماس"
+        android:enabled="true" />
 </menu>
