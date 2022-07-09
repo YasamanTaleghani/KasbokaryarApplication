@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="بروز رسانی لحظه ای"
+                android:textColor="@color/blue_grey_900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="پشتیبانی مشتری فرآیندی است برای حل هر گونه چالش و نقاط درد مشتری به صورت فوری و موثر از طریق تلفن، ایمیل، چت زنده، بلیط و رسانه‌های اجتماعی انجام می‌شود.
+                \n
+هر تعاملی که نمایندگان پشتیبانی با مشتریان دارند باید توسط مشتریان آغاز شود و به پایان برسد. یک دلیل اصلی برای سرمایه‌گذاری در تیم پشتیبانی مشتری، خوشحال کردن مشتریان است.
+\n
+این برای موفقیت بلندمدت کسب و کار شما بسیار مهم خواهد بود: وقتی مشتریان خود را خوشحال می‌کنید، آن‌ها به احتمال زیاد به کسب و کارتان وفادار می‌مانند و از شما در شبکه‌های حرفه‌ای و شخصی خود دفاع می‌کنند.
+\n
+امروزه حفظ مشتریان در درازمدت به دلیل گرانی به دست آوردن مشتریان جدید، بسیار مهم است. در واقع، دستیابی به مشتریان جدید به‌جای حفظ مشتریان فعلی، به‌طور تصاعدی پرهزینه‌تر می‌باشد.
+\n
+کارشناسان و تیم پشتیبانی ما ، پاسخ‌گوی پرسش‌ها و مشکلات احتمالی مشتریان و متقاضیان هستند و در اسرع وقت و در کمترین زمان ممکن نقایص احتمالی را رفع کرده و آماده بارگذاری می نماید."
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_book"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

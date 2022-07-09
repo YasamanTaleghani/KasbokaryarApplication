@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="تیم چابک چیست؟"
+                android:textColor="@color/blue_grey_900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="یک تیم عادی شامل گروهی از افراد است که برای رسیدن به یک مجموعه اهداف مشترک با هم همکاری می‌کنند. اما تیم چابک (Agile) چه تفاوتی با یک تیم معمولی دارد؟ آیا تیم‌های چابک مهارت‌های خاصی دارند که آن‌ها را از سایر تیم‌ها متمایز می‌کند؟
+                \n
+معمولاً تیم چابک تمام منابع ضروری مورد نیاز برای اتمام پروژه‌ها را دارد. آن‌ها برای انجام کار خود مجبور نیستند به همکاری با تیم‌های دیگر روی بیاورند. اعضای یک تیم چابک برای انجام مراحل مختلف یک پروژه همه لوازم مورد نیاز را دارند، از جمله ایجاد ساختار شکست کار (WBS)، کار بر روی وظایف، آزمایش، استقرار و تعطیلی پروژه.
+\n
+همانطور که از کلمه “چابک” می‌توان فهمید، تیم‌هایی که از اصول چابک پیروی می‌کنند می‌توانند پروژه‌ها را سریع‌تر اجرا کنند. از آنجایی که تیم‌های چابک هم‌زمان فقط روی یک پروژه کار می‌کنند، از درک بهتری از اهداف پروژه برخوردارند و سطح بالایی از بهره‌وری را حفظ می‌کنند."
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_book"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="به طور کلی، مدیریت پروژه چابک روشی است که در آن کل پروژه با تمرکز بر استفاده از تکرارها برای تصفیه کار تا دستیابی به کیفیت مطلوب، به چندین مرحله تقسیم می‌شود. تیم‌های چابک برای هماهنگی با ذینفعان و مشتریان برای بهبود مستمر کیفیت محصولات قابل تحویل کار می‌کنند.
+\n
+برنامه‌ها و دامنه مدیریت پروژه چابک عمدتا برای پروژه‌های توسعه نرم‌افزار مورد استفاده قرار می‌گیرد و دلیلی برای آن وجود دارد. در حقیقت، روش چابک برای پرکردن جای خالی سایر روش‌های سنتی مورد استفاده در صنعت نرم‌افزار مانند آبشاری (Waterfall)، اسکرام (Scrum)، توسعه سریع برنامه (RAD) و غیره ایجاد شد.
+\n
+با این حال در چند سال گذشته مدیریت پروژه چابک پا به صنایع دیگری مانند برنامه‌ریزی رویدادها، ساخت و ساز، امور مالی، هوا فضا و داروسازی گذاشته است."
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pic1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="درباره تیم ما"
+                android:textColor="@color/blue_grey_900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="ما تیمی فعال در صنعت تولید نرم افزار، خصوصاً نرم افزارهای مبتنی بر وب و اپلیکیشن های تلفن همراه با تمرکز بر حوزه های مالی، اداری و تخصصی در ایران هستیم و از سال 1387 کار خود را در بخش های تحلیل، طراحی و توسعه نرم افزار آغاز کرده ایم؛ که با بکارگیری متدولوژی ها، معماری و تکنولوژی های نوین نرم افزاری و همراهی کارشناسان و مشاوران متخصص، با تجربه و معتبر، زمینه ای مساعد جهت افزایش سرعت و دقت در تولید محصولات را فراهم ساخته و توانسته ایم سبد محصولات جامع و کاملی را در بازار نرم افزار ایران ارائه نماییم.
+\n
+ما از شروع فعالیت نیازمندی سازمان ها و موسسات را سرلوحه فعالیت خود قرار داده و با انجام امور سفارشی شرکت ها توانسته ایم پیشرفت چشمگیری در عرصه تولید نرم افزار بومی داشته باشیم و رضایت خاطر مشتریان خود را فراهم آوریم.
+\n
+تیم ما با استفاده از تکــنولوژی ها و متدهای روز دنیای تکــنولوژی، این قابلیت را دارد که به نوعی همراه همیشگی و شانه به شانه کسب و کار شما در مسـیر رشد و پیشرفت آن، باشد و در مسیر رسیدن به اهـــداف شما را همراهی کند.
+\n
+تیم کسب و کار یار تشکیل شده از بخش های مختلفی است که با همکاری هم سعی بر ساختن فردایی بهتر دارند."
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_book"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

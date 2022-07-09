@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
         android:layout_height="match_parent"
-        android:background="@color/blue_grey_100">
+        android:layout_width="match_parent">
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineH1"
+        <androidx.constraintlayout.widget.ConstraintLayout
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.1" />
+            android:layout_height="match_parent"
+            android:background="@color/blue_grey_100">
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineV1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.85" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineH1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.1" />
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/logo"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:padding="8dp"
-            android:src="@drawable/ic_earth"
-            app:layout_constraintBottom_toBottomOf="@+id/guidelineH1"
-            app:layout_constraintLeft_toLeftOf="@+id/guidelineV1"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.85" />
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:text="تکنولوژی های نوین"
-            android:textColor="@color/blue_grey_900"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:layout_marginRight="8dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guidelineH1" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/logo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_earth"
+                app:layout_constraintBottom_toBottomOf="@+id/guidelineH1"
+                app:layout_constraintLeft_toLeftOf="@+id/guidelineV1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/subtitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:gravity="right"
-            android:text="  کسب و کار و رونق آن از دیرباز لازمه ی بقای اقتصادی هر جامعه ای بوده است.
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="تکنولوژی های نوین"
+                android:textColor="@color/blue_grey_900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guidelineH1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="  کسب و کار و رونق آن از دیرباز لازمه ی بقای اقتصادی هر جامعه ای بوده است.
 تکنولوژی تاثیر مهمی بر روی فعالیت های اقتصادی و توسعه کسب و کار دارد و باعث می شود درآمد آن دسته از بیزنس هایی که با فناوری همراه شده اند ، چندیدن برابر شود.
 \n
 در حال حاضر بسیاری از صاحبان کسب و کار و کارآفرین بر این باور هستند که باید بیزنس خود را به روزرسانی کنند و از بهترین ابزارهای تکنولوژی برای رونق بخشیدن به کسب و کار خودشان استفاده کنند.
@@ -62,10 +69,54 @@
 طراحی وب سایت و سامانه های تحت وب از طریق روش‌های متفاوتی قابل انجام است، یکی از این روش‌ها که مورد توجه برنامه نویسان و طراحان بسیاری نیز قرار گرفته است، طراحی با زبان ASP.NET است. طراحی وب سایت و سامانه های تحت وب دات نت یک روش فوق العاده برای برنامه نویسی سایت‌های بسیار معتبر دولتی یا برندهای خصوصی بسیار بزرگ و نام آشنا است.
 \n
 دات نت را تقریبا می‌توان بر روی دستگاه‌های مختلف پشتیبانی نمود."
-            android:textColor="@color/blue_grey_800"
-            android:textSize="13dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title" />
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_book"
+                app:layout_constraintLeft_toRightOf="@+id/pic2"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_book"
+                app:layout_constraintRight_toLeftOf="@+id/pic1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:text="دانت نت مدلی از پیاده سازی نرم افزار بوده که در این مدل می‌توان به تولید و همچنین توسعه نرم افزارها به طور مستقل پرداخت. در واقع می‌توان گفت که دات نت یک لایه اصلی بین زبان برنامه نویسی و سیستم عامل است.
+\n
+توجه داشته باشید که امنیت در فضای وب یکی از مهم‌ترین دغدغه‌ها در فضای مجازی است. افراد زیادی مهم‌ترین فاکتور در طراحی وب سایت و سامانه های تحت وب را امنیت اطلاعات خود تلقی می‌کنند. این تدابیر برای عدم نفوذ هکرها به کار رفته است و دارای قدرت ایمنی بسیار بالایی هستند.
+\n
+ASP.NET یکی از این تدابیر امنیتی است که قابلیت دارد تا کدهایی که سمت سرور نوشته شده‌اند را به فایل dll تبدیل کرده و سپس آن‌ها را encode کند. بدین صورت حتی اگر سرور شما در دسترس فرد دیگری باشد نمی‌تواند سورس‌ وب سایت و سامانه تحت وب شما را مشاهده کند.
+\n
+زمانی که یک صفحه در ASP.NET برای اولین بار فراخوانی می‌شود، صفحۀ کامپایل شده را روی سرور نگه می‌دارد تا در بازخوانی‌های بعدی از آن استفاده کند، این بدین معنی است که در روش طراحی وب سایت و سامانه های تحت وب با ASP.NET، صفحه‌ها به سرعت بیشتری اجرا خواهند شد."
+                android:textColor="@color/blue_grey_800"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pic2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 </layout>
