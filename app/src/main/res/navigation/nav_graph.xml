@@ -13,11 +13,38 @@
         <action
             android:id="@+id/action_mainFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_modernTechFragment"
+            app:destination="@+id/modernTechFragment"/>
+
+        <action
+            android:id="@+id/action_mainFragment_to_agileTechFragment"
+            app:destination="@+id/agileTeamFragment"/>
+
+        <action
+            android:id="@+id/action_mainFragment_to_supportTeamFragment"
+            app:destination="@+id/supportTeamFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.example.kasbokaryarapplication.ui.DetailFragment"
-        android:label="DetailsFragment" >
-    </fragment>
+        android:label="DetailsFragment"/>
+
+    <fragment
+        android:id="@+id/modernTechFragment"
+        android:name="com.example.kasbokaryarapplication.ui.ModernTechFragment"
+        android:label="ModernTechFragment"/>
+
+    <fragment
+        android:id="@+id/agileTeamFragment"
+        android:name="com.example.kasbokaryarapplication.ui.AgileTeamFragment"
+        android:label="AgileTechFragment"/>
+
+    <fragment
+        android:id="@+id/supportTeamFragment"
+        android:name="com.example.kasbokaryarapplication.ui.SupportTeamFragment"
+        android:label="SupportTeamFragment"/>
+
 </navigation>
