@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.kasbokaryarapplication.ui.MainFragment"
+        android:name="com.example.kasbokaryarapplication.ui.HomeFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -30,21 +30,25 @@
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.example.kasbokaryarapplication.ui.DetailFragment"
-        android:label="DetailsFragment"/>
+        android:label="DetailsFragment"
+        tools:layout="@layout/fragment_about"/>
 
     <fragment
         android:id="@+id/modernTechFragment"
         android:name="com.example.kasbokaryarapplication.ui.ModernTechFragment"
-        android:label="ModernTechFragment"/>
+        android:label="ModernTechFragment"
+        tools:layout="@layout/fragment_modern_tech"/>
 
     <fragment
         android:id="@+id/agileTeamFragment"
         android:name="com.example.kasbokaryarapplication.ui.AgileTeamFragment"
-        android:label="AgileTechFragment"/>
+        android:label="AgileTechFragment"
+        tools:layout="@layout/fragment_agile_team"/>
 
     <fragment
         android:id="@+id/supportTeamFragment"
         android:name="com.example.kasbokaryarapplication.ui.SupportTeamFragment"
-        android:label="SupportTeamFragment"/>
+        android:label="SupportTeamFragment"
+        tools:layout="@layout/fragment_support_team"/>
 
 </navigation>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:id="@+id/more_card1"
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="تولید نرم افزارهای تحت وب"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:id="@+id/img"
+                           android:layout_width="0dp"
+                           android:layout_height="30dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_earth" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="نرم افزارهای تحت وب از هسته پایدار بهره می برند و با تغییر در عملکرد یا آپدیت، برای همه کاربران تغییر می کند. فضای مدرن تر، سرعت و عملکرد مطلوب تر این نرم افزارها باعث ترغیب بیشتر مخاطبان برای استفاده از این تکنولوژی شده است. دسترسی به آن در هر زمان و هر مکان از دیگر مزیت ها و دلایل استفاده از این نوع نرم افزارهاست."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:id="@+id/more_card2"
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="پیاده سازی وب سایت"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:id="@+id/img2"
+                           android:layout_width="0dp"
+                           android:layout_height="25dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_web_page" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="هدفمند بودن در طراحی و پیاده سازی وب سایت باعث می شود محصول نهایی بیشترین رضایتمندی را ایجاد کند و تعامل مطلوب تیم طراحی کسب و کار یار با سفارش دهنده برای شناخت بهتر مخاطب هدف و استفاده از قابلیت های لازم گرافیکی، بصری و فناوری های مورد نیاز، تضمینی برای انجام هر چه بهتر پروژه ها می باشد."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="تولید نرم افزار های موبایل"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:layout_width="0dp"
+                           android:layout_height="25dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_mobile" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="نقش تجهیزات و وسایل پرتابل در زندگی روزمره ما بسیار فراگیر تر از قبل شده است. به همین دلیل بستر مناسبی برای تولید و توسعه ی نرم افزارهای موبایلی در فضای کسب و کارهای رسمی و غیر رسمی پدید می آید که باعث می شود افراد و صاحبان مشاغل کوچک و بزرگ برای حضور در این بازار پر سود منفعل نباشند."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="مشاوره و نظارت"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:layout_width="0dp"
+                           android:layout_height="30dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_people" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="کسب و کار یار وجوه مختلف کسب و کار و الگوهای مختلف در ساختار سازمانی شما را بررسی خواهد کرد و در انتها با ارائه الگویی صحیح و قابل اطمینان در مسیر مرتفع کردن نیازهای فنی تان گام بر خواهد داشت."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="سیستم های مبتنی بر نقشه"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:layout_width="0dp"
+                           android:layout_height="30dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_location_pin" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="کسب و کار یار اقدام به توسعه سیستم‌های مبتنی بر نقشه بر بستر پلتفرم‌های وب، موبایل و دسکتاپ کرده است. همین‌طور طراحی و ایجاد لایه‌های مختلف اطلاعاتی و تولید نقشه‌ بر اساس نیازهای کارفرما نیز از دیگر اقدامات گروه ما است."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="180dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="10dp"
+               app:cardMaxElevation="6dp"
+               app:cardPreventCornerOverlap="true"
+               app:cardUseCompatPadding="true">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_margin="4dp"
+                           android:padding="4dp"
+                           android:layout_gravity="top|center_horizontal"
+                           android:gravity="center"
+                           android:layout_weight="6"
+                           android:text="تهیه و تولید محتوای اختصاصی"
+                           android:textSize="۱۲sp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:layout_width="0dp"
+                           android:layout_height="30dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="top|right"
+                           android:layout_margin="8dp"
+                           android:src="@drawable/ic_photo_camera" />
+                   </LinearLayout>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="4dp"
+                       android:padding="6dp"
+                       android:layout_gravity="center|bottom"
+                       android:gravity="center"
+                       android:text="تولید محتوای باکیفیت یکی از اصلی‌ترین راه‌های رسیدن به جایگاه‌های اول در گوگل، افزایش فروش و جلب اعتماد مخاطبان است. در کسب و کار یار، تمامی مراحل تولید تا انتشار محتوا با بالاترین کیفیت صورت می‌گیرد."
+                       android:textSize="12sp" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+       </LinearLayout>
+   </ScrollView>
+</layout>
