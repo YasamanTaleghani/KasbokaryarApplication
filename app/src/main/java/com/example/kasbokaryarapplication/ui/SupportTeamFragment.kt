@@ -14,10 +14,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class SupportTeamFragment : Fragment() {
     lateinit var binding: FragmentSupportTeamBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_support_team, container, false)
         return binding.root
