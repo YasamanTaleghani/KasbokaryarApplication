@@ -46,7 +46,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="تولید نرم افزارهای تحت وب"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -105,7 +105,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="پیاده سازی وب سایت"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -162,7 +162,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="تولید نرم افزار های موبایل"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -218,7 +218,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="مشاوره و نظارت"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -274,7 +274,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="سیستم های مبتنی بر نقشه"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -330,7 +330,7 @@
                            android:gravity="center"
                            android:layout_weight="6"
                            android:text="تهیه و تولید محتوای اختصاصی"
-                           android:textSize="۱۲sp"
+                           android:textSize="12sp"
                            android:textStyle="bold" />
 
                        <ImageView
@@ -360,7 +360,7 @@
 
                <ImageView
                    android:layout_width="match_parent"
-                   android:layout_height="200dp"
+                   android:layout_height="240dp"
                    android:layout_weight="1"
                    android:layout_gravity="top|right"
                    android:src="@color/black"
@@ -396,7 +396,7 @@
                    android:src="@drawable/ic_briefcase"
                    app:layout_constraintTop_toBottomOf="@+id/title"
                    app:layout_constraintRight_toRightOf="parent"
-                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
+                   app:layout_constraintLeft_toLeftOf="@+id/team_title"/>
 
                <TextView
                    android:id="@+id/project_view"
@@ -411,9 +411,10 @@
                    android:textSize="12sp"
                    app:layout_constraintTop_toBottomOf="@+id/project_title"
                    app:layout_constraintRight_toRightOf="parent"
-                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
+                   app:layout_constraintLeft_toLeftOf="@+id/team_title"/>
 
                <TextView
+                   android:id="@+id/project_text"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:layout_margin="4dp"
@@ -425,7 +426,7 @@
                    android:textSize="12sp"
                    app:layout_constraintTop_toBottomOf="@+id/project_view"
                    app:layout_constraintRight_toRightOf="parent"
-                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
+                   app:layout_constraintLeft_toLeftOf="@+id/team_title"/>
 
                <ImageView
                    android:id="@+id/team_title"
@@ -435,8 +436,8 @@
                    android:layout_margin="8dp"
                    android:src="@drawable/ic_person"
                    app:layout_constraintTop_toBottomOf="@+id/title"
-                   app:layout_constraintRight_toRightOf="@+id/guideline"
-                   app:layout_constraintLeft_toLeftOf="parent"/>
+                   app:layout_constraintRight_toLeftOf="@+id/project_title"
+                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
 
                <TextView
                    android:id="@+id/team_view"
@@ -450,10 +451,11 @@
                    android:textColor="@color/white"
                    android:textSize="12sp"
                    app:layout_constraintTop_toBottomOf="@+id/team_title"
-                   app:layout_constraintRight_toRightOf="@+id/guideline"
-                   app:layout_constraintLeft_toLeftOf="parent"/>
+                   app:layout_constraintRight_toLeftOf="@+id/project_title"
+                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
 
                <TextView
+                   android:id="@+id/team_text"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:layout_margin="4dp"
@@ -464,9 +466,118 @@
                    android:textColor="@color/white"
                    android:textSize="12sp"
                    app:layout_constraintTop_toBottomOf="@+id/team_view"
-                   app:layout_constraintRight_toRightOf="@+id/guideline"
+                   app:layout_constraintRight_toLeftOf="@+id/project_title"
+                   app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
+
+               <ImageView
+                   android:id="@+id/customers_title"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_gravity="top|right"
+                   android:layout_margin="8dp"
+                   android:src="@drawable/ic_medal"
+                   app:layout_constraintTop_toBottomOf="@+id/title"
+                   app:layout_constraintLeft_toLeftOf="@+id/exp_title"
+                   app:layout_constraintRight_toRightOf="@+id/guideline"/>
+
+               <TextView
+                   android:id="@+id/customer_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="4dp"
+                   android:padding="4dp"
+                   android:layout_gravity="center|bottom"
+                   android:gravity="center"
+                   android:text="95"
+                   android:textColor="@color/white"
+                   android:textSize="12sp"
+                   app:layout_constraintTop_toBottomOf="@+id/customers_title"
+                   app:layout_constraintLeft_toLeftOf="@+id/exp_title"
+                   app:layout_constraintRight_toRightOf="@+id/guideline"/>
+
+               <TextView
+                   android:id="@+id/customer_text"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="4dp"
+                   android:padding="4dp"
+                   android:layout_gravity="center|bottom"
+                   android:gravity="center"
+                   android:text="مشتریان"
+                   android:textColor="@color/white"
+                   android:textSize="12sp"
+                   app:layout_constraintTop_toBottomOf="@+id/customer_view"
+                   app:layout_constraintLeft_toLeftOf="@+id/exp_title"
+                   app:layout_constraintRight_toRightOf="@+id/guideline"/>
+
+
+               <ImageView
+                   android:id="@+id/exp_title"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_gravity="top|right"
+                   android:layout_margin="8dp"
+                   android:src="@drawable/ic_calender"
+                   app:layout_constraintTop_toBottomOf="@+id/title"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   app:layout_constraintRight_toLeftOf="@+id/customers_title"/>
+
+               <TextView
+                   android:id="@+id/exp_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="4dp"
+                   android:padding="4dp"
+                   android:layout_gravity="center|bottom"
+                   android:gravity="center"
+                   android:text="95"
+                   android:textColor="@color/white"
+                   android:textSize="12sp"
+                   app:layout_constraintTop_toBottomOf="@+id/customers_title"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   app:layout_constraintRight_toLeftOf="@+id/customers_title"/>
+
+               <TextView
+                   android:id="@+id/exp_text"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="4dp"
+                   android:padding="4dp"
+                   android:layout_gravity="center|bottom"
+                   android:gravity="center"
+                   android:text="مشتریان"
+                   android:textColor="@color/white"
+                   android:textSize="12sp"
+                   app:layout_constraintTop_toBottomOf="@+id/customer_view"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   app:layout_constraintRight_toLeftOf="@+id/customers_title"/>
+
+               <TextView
+                   android:id="@+id/question"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="16dp"
+                   android:padding="6dp"
+                   android:textColor="@color/white"
+                   android:gravity="center"
+                   android:text="آیا پروژه ای در ذهن دارید؟"
+                   android:textSize="16sp"
+                   app:layout_constraintTop_toBottomOf="@+id/exp_text"
+                   app:layout_constraintRight_toRightOf="parent"
                    app:layout_constraintLeft_toLeftOf="parent"/>
 
+               <androidx.appcompat.widget.AppCompatButton
+                   android:id="@+id/contact"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintTop_toTopOf="@+id/question"
+                   app:layout_constraintBottom_toBottomOf="@+id/question"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   android:background="@drawable/bg_background"
+                   android:layout_margin="8dp"
+                   android:padding="8dp"
+                   android:textSize="11dp"
+                   android:text="تماس با ما"/>
            </androidx.constraintlayout.widget.ConstraintLayout>
        </LinearLayout>
    </ScrollView>
