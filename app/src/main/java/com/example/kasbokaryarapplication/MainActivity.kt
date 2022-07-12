@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
         val educationFragment = EducationFragment()
         val contactFragment = ContactFragment()
 
-        setCurrentFragment(homeFragment)
-
         navigation.setOnItemSelectedListener {
             when(it.itemId) {
                 R.id.action_main -> setCurrentFragment(homeFragment)
