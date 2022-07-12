@@ -167,7 +167,7 @@
                     android:layout_margin="12dp"
                     android:gravity="center"
                     android:padding="4dp"
-                    android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
+                    android:text="تیم ما با ایجاد یک تعامل هدفمند با سفارش دهنده، از هر نظری استقبال کرده و آمادگی انجام هر تغییری را دارد."
                     android:textSize="12sp" />
 
                 <TextView
@@ -215,7 +215,7 @@
                     android:padding="4dp"
                     android:layout_gravity="bottom|center_horizontal"
                     android:gravity="center"
-                    android:text="بهره گیری از به روز ترین روش ها و استفاده از تکنولوژی های نو در تیم ما یک مزیت همیشگی بوده."
+                    android:text="تیم پشتیبانی ما در اسرع وقت و در کمترین زمان ممکن نقایص احتمالی را رفع کرده و آماده بارگذاری می نماید."
                     android:textSize="12sp" />
 
                 <TextView
