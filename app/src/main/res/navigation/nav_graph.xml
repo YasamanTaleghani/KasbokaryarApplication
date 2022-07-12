@@ -51,4 +51,21 @@
         android:label="SupportTeamFragment"
         tools:layout="@layout/fragment_support_team"/>
 
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.kasbokaryarapplication.ui.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service">
+
+        <action
+            android:id="@+id/action_serviceFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.kasbokaryarapplication.ui.ContactFragment"
+        android:label="ContactFragment"
+        tools:layout="@layout/fragment_contact"/>
+
 </navigation>
