@@ -510,7 +510,6 @@
                    app:layout_constraintLeft_toLeftOf="@+id/exp_title"
                    app:layout_constraintRight_toRightOf="@+id/guideline"/>
 
-
                <ImageView
                    android:id="@+id/exp_title"
                    android:layout_width="20dp"
