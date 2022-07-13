@@ -1,6 +1,8 @@
 package com.example.kasbokaryarapplication.ui
 
+import android.graphics.Color
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +11,7 @@ import androidx.fragment.app.Fragment
 import com.example.kasbokaryarapplication.R
 import com.example.kasbokaryarapplication.databinding.FragmentEducationBinding
 import dagger.hilt.android.AndroidEntryPoint
+
 
 @AndroidEntryPoint
 class EducationFragment : Fragment() {
@@ -25,9 +28,15 @@ class EducationFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        setupHyperlink()
         val identifier: Int = requireContext().resources.getIdentifier("career_exam", "raw", requireContext().packageName)
         if (identifier > 0) {
             binding.image1.setImageResource(identifier)
         }
+    }
+
+    private fun setupHyperlink() {
+        binding.hyp1.movementMethod = LinkMovementMethod.getInstance()
+        binding.hyp1.setLinkTextColor(Color.BLUE)
     }
 }
