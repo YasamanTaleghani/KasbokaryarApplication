@@ -22,8 +22,8 @@ class ServiceFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.contact.setOnClickListener {
-            findNavController().navigate(R.id.action_serviceFragment_to_contactFragment)
-        }
+        /*binding.contact.setOnClickListener {
+            findNavController().navigate(R.id.action_serviceFragment_to_contacts)
+        }*/
     }
 }
